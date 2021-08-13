@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
+
    <head>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/normalize.css">
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Экспофорум</title>
    </head>
-   <body>
-      <header>
+
+   <body class="page-body">
+      <header class="main-header">
          <a href=""><img src="" alt="Экспофорум логотип" /></a>
-         <nav>
+         <nav class="main-navigation">
             <ul>
                <li><a href="blank.html">О комплексе</a></li>
                <li><a href="blank.html">О компании</a></li>
@@ -17,37 +21,37 @@
                <li><a href="blank.html">Медиабанк</a></li>
                <li><a href="blank.html">Контакты</a></li>
             </ul>
-            <button>Поиск</button>
-            <a href="blank.html">English</a>
+            <button class="search-button">Поиск</button>
          </nav>
       </header>
-      <main>
+
+      <main class="container">
          <h1>Экспофорум</h1>
          <h2>конгрессно-выставочный центр Санкт-Петербурга</h2>
          <p><a href="blank.html">О комплексе</a></p>
 
-         <section>
+         <section class="tiles">
             <!-- 4 плитки -->
-            <ul>
-               <li>
+            <ul class="tiles-list">
+               <li class="tiles-item">
                   <section>
                      <h2>Календарь мероприятий</h2>
                      <a href="blank.html">Подробнее</a>
                   </section>
                </li>
-               <li>
+               <li class="tiles-item">
                   <section>
                      <h2>Как добраться до Экспофорума</h2>
                      <a href="blank.html">Подробнее</a>
                   </section>
                </li>
-               <li>
+               <li class="tiles-item">
                   <section>
                      <h2>Онлайн-заявка на организацию мероприятия</h2>
                      <a href="blank.html">Подробнее</a>
                   </section>
                </li>
-               <li>
+               <li class="tiles-item">
                   <section>
                      <h2>План и инфраструктура комплекса</h2>
                      <a href="blank.html">Подробнее</a>
@@ -55,7 +59,8 @@
                </li>
             </ul>
          </section>
-         <section>
+
+         <section >
             <h2>Организаторам</h2>
             <ul>
                <li><a href="blank.html">Документы организаторам</a></li>
@@ -102,73 +107,73 @@
             <ul>
                <li>
                   <a href="blank.html">
+                     <h3>ЭКСПО ЕЛКА</h3>
                      <img src="img/1.png" alt="Экспо елка превью" />
                      <p>
                         <time>2 января 2020</time>
                         -
                         <time>7 января 2020</time>
                      </p>
-                     <h3>ЭКСПО ЕЛКА</h3>
                      <p>Парк интерактивных развлечений</p>
                   </a>
                </li>
                <li>
                   <a href="blank.html">
+                     <h3>Junwex Петербург</h3>
                      <img src="img/2.png" alt="" />
                      <p>
                         <time>5 февраля 2020</time>
                         -
                         <time>9 февраля 2020</time>
                      </p>
-                     <h3>Junwex Петербург</h3>
                      <p>Выставка ювелирных изделий</p>
                   </a>
                </li>
                <li>
                   <a href="blank.html">
+                     <h3>Невский ларец</h3>
                      <img src="img/3.png" alt="" />
                      <p>
                         <time>7 февраля 2020</time>
                         -
                         <time>9 февраля 2020</time>
                      </p>
-                     <h3>Невский ларец</h3>
                      <p>Выставка-ярмарка народных художественных промыслов и ремесел</p>
                   </a>
                </li>
                <li>
                   <a href="blank.html">
+                     <h3>ПОНАЕХАЛИ!</h3>
                      <img src="img/4.png" alt="" />
                      <p>
                         <time>14 фервлая 2020</time>
                         -
                         <time>23 февраля 2020</time>
                      </p>
-                     <h3>ПОНАЕХАЛИ!</h3>
                      <p>Специализированная арт-ярмарка</p>
                   </a>
                </li>
                <li>
                   <a href="blank.html">
+                     <h3>VET.CAMP</h3>
                      <img src="img/5.png" alt="" />
                      <p>
                         <time>18 февраля 2020</time>
                         -
                         <time>21 февраля 2020/time>
                      </p>
-                     <h3>VET.CAMP</h3>
                      <p>Конференция для ветеринарных врачей </p>
                   </a>
                </li>
                <li>
                   <a href="blank.html">
+                     <h3>ExpoHoReCa</h3>
                      <img src="img/6.png" alt="" />
                      <p>
                         <time>26 февраля 2020</time>
                         -
                         <time>28 февраля 2020</time>
                      </p>
-                     <h3>ExpoHoReCa</h3>
                      <p>Специализированная выставка</p>
                   </a>
                </li>
@@ -271,11 +276,10 @@
             <p>Получайте все самые последние новости о мероприятиях в Экспофоруме.</p>
             <form action="https://echo.htmlacademy.ru/" method="post">
                <input type="email" name="mail_for_news" id="" placeholder="Введите ваш e-mail">
-               <button type="submit"><img src="img/mail.png" alt=""></button>
+               <button type="submit"><img src="img/mail.png" alt="Отправить"></button>
             </form>
          </section>
 
       </footer>
    </body>
 </html>
- 
