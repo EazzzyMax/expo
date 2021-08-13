@@ -5,9 +5,26 @@
    font-style: normal;
 }
 
-body {
-   font-family: Circe;
+@font-face {
+   font-family: 'Plumb Medium' ;
+   src: url('../fonts/Plumb\ Medium.woff2') format('woff2');
 }
+
+
+h1{
+   font-family: 'Plumb Medium';
+   font-size: 64px;
+}
+
+h2{
+   font-family: 'Plumb Medium';
+   font-size: 30px;
+}
+h3{
+   font-family: 'Plumb Medium';
+   font-size: 21px;
+}
+
 
 a {
    color: coral;
