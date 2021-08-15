@@ -6,7 +6,7 @@
 }
 
 @font-face {
-   font-family: 'Plumb Medium';
+   font-family: 'Plumb Regular';
    src: url('../fonts/plumb-regular.woff2') format('woff2');
 }
 
@@ -18,17 +18,17 @@ body {
 }
 
 h1 {
-   font-family: 'Plumb Medium';
+   font-family: 'Plumb Regular';
    font-size: 64px;
 }
 
 h2 {
-   font-family: 'Plumb Medium';
+   font-family: 'Plumb Regular';
    font-size: 30px;
    line-height: 39px;
 }
 h3 {
-   font-family: 'Plumb Medium';
+   font-family: 'Plumb Regular';
    font-size: 21px;
    line-height: 27px;
    letter-spacing: -0.01em;
@@ -48,6 +48,13 @@ a:hover {
    font-size: 24px;
 }
 
+/* Куча ссылок */
+
+.h2-side {
+   margin-top: 0px;
+   margin-bottom: 30px;
+}
+
 .side-menu {
    background-color: #2378fc;
    width: 1114px;
@@ -61,12 +68,19 @@ a:hover {
 .side-menu__list {
    width: 1114px;
    height: 276px;
-   /* margin-left: 403px;
-   margin-right: 403px;
-   margin-top: 75px;
-   margin-bottom: 75px; думаю ошибка*/ 
 }
 
 .side-menu__item {
-   display: inline-block;
+   /* display: inline-block; */
+   float: left;
+}
+
+.side-menu__item__links {
+   margin: 0px;
+   list-style-type: none;
+}
+
+.side-link {
+   line-height: 22px;
+   margin-top: 15px;
 }
