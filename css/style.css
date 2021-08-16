@@ -36,10 +36,8 @@ h3 {
 
 a {
    text-decoration: none;
-   color:  #fff;
+   color: #fff;
 }
-
-
 
 .ph1 {
    font-size: 24px;
@@ -81,7 +79,7 @@ a {
 }
 
 .right-margin {
-   margin-right: 119px;
+   margin-right: 122.5px;
 }
 
 .side-menu__item__links {
@@ -97,26 +95,39 @@ a {
 
 /* мероприятия */
 
-.events h3{
-color: #F6404F;
+#link-to-all {
+   float: right;
+}
+
+#events-h2div {
+   width: max-content;
+   display: inline-block;
+}
+
+.events h3 {
+   color: #f6404f;
+}
+
+.events h2 {
+   margin: 0px;
 }
 
 .events a {
-   color: #2E373B;
+   color: #2e373b;
 }
 .events {
    background-color: #ffc41e;
-   color: #2E373B;
+   color: #2e373b;
    height: max-content;
+
    padding-top: 75px;
    padding-bottom: 79px;
 }
 
-
-
-
 .events__block {
+   width: 1110px;
+   margin: auto;
 }
 
-.events-list{
+.events-list {
 }
