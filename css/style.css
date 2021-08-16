@@ -35,20 +35,24 @@ h3 {
 }
 
 a {
-   color: rgb(241, 241, 241);
    text-decoration: none;
 }
 
-a:hover {
-   color: #ffc41e;
-   text-decoration: underline;
-}
+
 
 .ph1 {
    font-size: 24px;
 }
 
 /* Куча ссылок */
+
+.side-menu a {
+   color: #fff;
+}
+.side-menu a:hover {
+   color: #ffc41e;
+   text-decoration: underline;
+}
 
 .side-menu h2 {
    margin-top: 0px;
@@ -57,28 +61,26 @@ a:hover {
 
 .side-menu {
    background-color: #2378fc;
-   width: 1114px;
    height: 276px;
-   padding-left: 403px;
-   padding-right: 403px;
+   /* padding-left: 409.5px;
+   padding-right: 409.5px; */
    padding-top: 75px;
    padding-bottom: 75px;
 }
 
 .side-menu__list {
-   width: 1114px;
+   width: max-content;
    height: 276px;
+   margin: auto;
 }
 
 .side-menu__item {
    /* display: inline-block; */
    float: left;
-   
 }
 
 .right-margin {
    margin-right: 119px;
-
 }
 
 .side-menu__item__links {
@@ -90,4 +92,30 @@ a:hover {
 .side-link {
    line-height: 22px;
    margin-top: 15px;
+}
+
+/* мероприятия */
+
+.events h3{
+color: #F6404F;
+}
+
+.events a {
+   color: #2E373B;
+}
+.events {
+   background-color: #ffc41e;
+   color: #2E373B;
+   height: max-content;
+   padding-top: 75px;
+   padding-bottom: 79px;
+}
+
+
+
+
+.events__block {
+}
+
+.events-list{
 }
