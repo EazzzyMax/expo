@@ -50,7 +50,7 @@ a:hover {
 
 /* Куча ссылок */
 
-.h2-side {
+.side-menu h2 {
    margin-top: 0px;
    margin-bottom: 30px;
 }
@@ -73,11 +73,18 @@ a:hover {
 .side-menu__item {
    /* display: inline-block; */
    float: left;
+   
+}
+
+.right-margin {
+   margin-right: 119px;
+
 }
 
 .side-menu__item__links {
    margin: 0px;
    list-style-type: none;
+   padding-left: 0;
 }
 
 .side-link {
