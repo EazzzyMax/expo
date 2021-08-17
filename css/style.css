@@ -120,7 +120,7 @@ a {
    margin-bottom: 0px;
 }
 
-.events li {
+.bottom-margin1 {
    margin-bottom: 18px;
 }
 .events h3 {
@@ -142,7 +142,7 @@ a {
    height: max-content;
 
    padding-top: 75px;
-   padding-bottom: 79px;
+   padding-bottom: 57px;
 }
 
 .events__block {
@@ -154,6 +154,7 @@ a {
    list-style-type: none;
    padding-left: 0;
    margin-top: 55px;
+   margin-bottom: 0px;
 }
 
 .events-item {
