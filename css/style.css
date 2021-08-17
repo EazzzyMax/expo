@@ -20,6 +20,7 @@ body {
 h1 {
    font-family: 'Plumb Regular';
    font-size: 64px;
+   letter-spacing: -0.01em;
 }
 
 h2 {
@@ -31,7 +32,6 @@ h3 {
    font-family: 'Plumb Regular';
    font-size: 21px;
    line-height: 27px;
-   letter-spacing: -0.01em;
 }
 
 a {
@@ -61,8 +61,6 @@ a {
 .side-menu {
    background-color: #2378fc;
    height: 276px;
-   /* padding-left: 409.5px;
-   padding-right: 409.5px; */
    padding-top: 75px;
    padding-bottom: 75px;
 }
@@ -78,8 +76,8 @@ a {
    float: left;
 }
 
-.right-margin {
-   margin-right: 122.5px;
+.right-margin1 {
+   margin-right: 122.283px;
 }
 
 .side-menu__item__links {
@@ -96,7 +94,10 @@ a {
 /* мероприятия */
 
 #link-to-all {
+   font-size: 21px;
    float: right;
+   text-decoration: underline;
+   margin-top: 7.2px;
 }
 
 #events-h2div {
@@ -104,8 +105,28 @@ a {
    display: inline-block;
 }
 
+.right-margin2 {
+   margin-right: 26.3px;
+}
+
+.date {
+   font-size: 14px;
+   margin-top: 12px;
+   margin-bottom: 10px;
+}
+
+.event-info {
+   margin-top: 10px;
+   margin-bottom: 0px;
+}
+
+.events li {
+   margin-bottom: 18px;
+}
 .events h3 {
    color: #f6404f;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 
 .events h2 {
@@ -130,4 +151,14 @@ a {
 }
 
 .events-list {
+   list-style-type: none;
+   padding-left: 0;
+   margin-top: 55px;
+}
+
+.events-item {
+   display: inline-block;
+   width: 350px;
+   height: 370px;
+   vertical-align: top;
 }
