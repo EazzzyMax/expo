@@ -145,7 +145,18 @@ a {
    padding-left: 0;
 }
 
+.events-item {
+   height: 370px;
+}
 
+.events-div-img{
+width: 100%;
+}
+
+.events-img {
+width: 100%;
+height: auto;
+}
 
 .date {
    font-size: 14px;
@@ -158,9 +169,4 @@ a {
    margin-bottom: 0px;
 }
 
-.events-item {
-   display: inline-block;
-   width: 350px;
-   height: 370px;
-   vertical-align: top;
-}
+
