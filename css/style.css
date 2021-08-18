@@ -10,10 +10,20 @@
    src: url('../fonts/plumb-regular.woff2') format('woff2');
 }
 
+:root {
+   --blue: #2378FC;
+   --green: #30BCC9;
+   --yellow: #FFC41E;
+   --red: #F6404F;
+   --ice: #FAF3E3;
+   --black: #2e373b;
+   --pad: 20px; 
+}
+
 body {
    font-family: Circe;
    background-color: rgb(35, 39, 43);
-   color: #fff;
+   color: white;
    margin: 0px;
 }
 
@@ -36,7 +46,7 @@ h3 {
 
 a {
    text-decoration: none;
-   color: #fff;
+   color: white;
 }
 
 .ph1 {
@@ -46,10 +56,10 @@ a {
 /* Куча ссылок */
 
 .side-menu a {
-   color: #fff;
+   color: white;
 }
 .side-menu a:hover {
-   color: #ffc41e;
+   color: var(--yellow);
    text-decoration: underline;
 }
 
@@ -59,7 +69,7 @@ a {
 }
 
 .side-menu {
-   background-color: #2378fc;
+   background-color: var(--blue);
    height: 276px;
    padding-top: 75px;
    padding-bottom: 75px;
@@ -72,9 +82,7 @@ a {
    max-width: 1110px;
    height: 276px;
    margin: auto;
-}
-
-.side-menu__item {
+   padding: 0px var(--pad);
 }
 
 .side-menu__item__links {
@@ -94,16 +102,14 @@ a {
    margin: 0px;
 }
 .events h3 {
-   color: #f6404f;
+   color: var(--red);
    margin-top: 10px;
    margin-bottom: 10px;
 }
 
 .events a {
-   color: #2e373b;
+   color: var(--black);
 }
-
-
 
 #link-to-all {
    font-size: 21px;
@@ -112,19 +118,20 @@ a {
 }
 
 .events {
-   background-color: #ffc41e;
-   color: #2e373b;
+   background-color: var(--yellow);
+   color: var(--black);
    height: max-content;
 
    padding-top: 75px;
    padding-bottom: 57px;
 }
 
-.events__block_up {
+.events-head {
    display: flex;
    justify-content: space-between;
    min-width: 900px;
    max-width: 1110px;
+   padding: 0px var(--pad);
    margin: auto;
 }
 
@@ -142,20 +149,21 @@ a {
    margin-bottom: 0px;
 
    list-style-type: none;
-   padding-left: 0;
+
+   padding: 0px var(--pad);
 }
 
 .events-item {
    height: 370px;
 }
 
-.events-div-img{
-width: 100%;
+.events-div-img {
+   width: 100%;
 }
 
 .events-img {
-width: 100%;
-height: auto;
+   width: 100%;
+   height: auto;
 }
 
 .date {
@@ -168,5 +176,3 @@ height: auto;
    margin-top: 10px;
    margin-bottom: 0px;
 }
-
-
