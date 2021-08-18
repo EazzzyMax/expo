@@ -83,8 +83,8 @@ a {
    display: block;
 }
 
-#link-logo {
-}
+/* #link-logo {
+} */
 #nav-list {
    display: flex;
    max-width: 586px;
@@ -95,11 +95,11 @@ a {
    flex-grow: 1;
    justify-content: space-between;
 }
-#search-form {
-}
+/* #search-form {
+} */
 
-.nav-items {
-}
+/* .nav-items {
+} */
 
 /* первая секция */
 .first-screen {
