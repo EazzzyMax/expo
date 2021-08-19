@@ -57,10 +57,10 @@ a {
 /* Хедер */
 
 .main-header {
-   background-image: url('/img/bgc.jpg');
+   background-image: url('/img/bcg+.jpg');
    background-repeat: no-repeat;
-   background-size: 110%;
-   background-position: top;
+   background-size: cover;
+   background-position: center;
    background-attachment: fixed;
 }
 .head-wrapper {
@@ -70,6 +70,7 @@ a {
    height: 89px;
    align-items: center;
    margin: auto;
+   padding: 0px var(--pad);
    justify-content: space-between;
 }
 
@@ -83,8 +84,7 @@ a {
    display: block;
 }
 
-/* #link-logo {
-} */
+
 #nav-list {
    display: flex;
    max-width: 586px;
@@ -95,18 +95,14 @@ a {
    flex-grow: 1;
    justify-content: space-between;
 }
-/* #search-form {
-} */
 
-/* .nav-items {
-} */
 
 /* первая секция */
 .first-screen {
-   background-image: url('/img/bgc.jpg');
+   background-image: url('/img/bcg+.jpg');
    background-repeat: no-repeat;
-   background-size: 110%;
-   background-position: top;
+   background-size: cover;
+   background-position: center;
    background-attachment: fixed;
 
    height: 710px;
