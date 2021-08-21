@@ -20,6 +20,14 @@
    --pad: 20px;
 }
 
+.hidden {
+   display: none;
+}
+
+.img-block {
+   display: block;
+}
+
 body {
    font-family: Circe;
    background-color: rgb(35, 39, 43);
@@ -33,7 +41,6 @@ h1 {
    letter-spacing: -0.01em;
    margin: 0px;
 }
-
 h2 {
    font-family: 'Plumb Regular';
    font-size: 30px;
@@ -57,8 +64,7 @@ a {
 /* Хедер */
 
 .main-header {
-   background-image: url('/img/bcg+.jpg');
-   background-repeat: no-repeat;
+   background-image: url('../img/bcg+.jpg');
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
@@ -101,8 +107,7 @@ a {
    margin-top: 0px;
 }
 .first-screen {
-   background-image: url('/img/bcg+.jpg');
-   background-repeat: no-repeat;
+   background-image: url('../img/bcg+.jpg');
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
@@ -121,9 +126,6 @@ a {
 
    margin: auto;
    padding: 0px var(--pad);
-}
-
-.h1-wrapper {
 }
 
 .tiles-list {
@@ -290,4 +292,74 @@ a {
 .event-info {
    margin-top: 10px;
    margin-bottom: 0px;
+}
+
+/* третий отсек */
+
+.news {
+   height: 489px;
+   background-color: var(--ice);
+   color: var(--black);
+   padding-bottom: 85px;
+   padding-top: 75px;
+}
+
+.news a {
+   color: var(--black);
+}
+
+.news h2 {
+   margin: 0px;
+}
+
+.news-wrapper {
+   display: flex;
+   max-width: 1110px;
+   min-width: 900px;
+   justify-content: space-between;
+   margin: auto;
+}
+
+.news-left {
+   max-width: 445px;
+   height: 489px;
+}
+
+.news-left-ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   list-style: none;
+
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+}
+
+.news-right {
+   max-width: 530px;
+   height: 489px;
+}
+
+.news-right img {
+   margin-right: 30px;
+}
+
+.news-right {
+   margin-top: 15px;
+}
+
+.news-right-ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+   list-style: none;
+   padding: 0px;
+   margin-top: 30px;
+   height: 420px;
+}
+
+.news-right-li {
+   height: 120px;
 }
