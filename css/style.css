@@ -104,8 +104,9 @@ a {
 /* первая секция */
 
 .first-screen h3 {
-   margin-top: 0px;
+   margin: 0px;
 }
+
 .first-screen {
    background-image: url('../img/bcg+.jpg');
    background-size: cover;
@@ -144,11 +145,19 @@ a {
 }
 
 .tiles-item {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
    width: 215px;
    height: 88px;
    padding-top: 30px;
    padding-bottom: 30px;
    padding-left: 40px;
+}
+
+.tiles-item a {
+   font-size: 14px;
+   line-height: 19px;
 }
 
 .item1 {
