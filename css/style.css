@@ -101,7 +101,7 @@ a {
    list-style-type: none;
    padding: 0px 30px;
    margin: 0px;
-   /* flex-grow: 1; */
+   flex-grow: 1;
    justify-content: space-between;
 }
 
@@ -331,6 +331,7 @@ a {
    min-width: var(--minw);
    justify-content: space-between;
    margin: auto;
+   gap: 20px;
 }
 
 .news-left {
@@ -352,6 +353,7 @@ a {
 .news-right {
    max-width: 530px;
    height: 489px;
+   margin-top: 0px;
 }
 
 .news-right img {
