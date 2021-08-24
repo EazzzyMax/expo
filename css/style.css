@@ -17,7 +17,8 @@
    --red: #f6404f;
    --ice: #faf3e3;
    --black: #2e373b;
-   --pad: 20px;
+   --pad: 30px;
+   --minw: 1000px;
 }
 
 .hidden {
@@ -75,7 +76,7 @@ a {
 .head-wrapper {
    display: flex;
    max-width: 1560px;
-   min-width: 900px;
+   min-width: var(--minw);
    height: 89px;
    align-items: center;
    margin: auto;
@@ -100,7 +101,7 @@ a {
    list-style-type: none;
    padding: 0px 30px;
    margin: 0px;
-   flex-grow: 1;
+   /* flex-grow: 1; */
    justify-content: space-between;
 }
 
@@ -125,7 +126,7 @@ a {
    justify-content: space-between;
 
    max-width: 1110px;
-   min-width: 900px;
+   min-width: var(--minw);
    height: 473px;
 
    margin: auto;
@@ -206,7 +207,7 @@ a {
 .side-menu__list {
    display: flex;
    justify-content: space-between;
-   min-width: 900px;
+   min-width: var(--minw);
    max-width: 1110px;
    height: 276px;
    margin: auto;
@@ -258,7 +259,7 @@ a {
 .events-head {
    display: flex;
    justify-content: space-between;
-   min-width: 900px;
+   min-width: var(--minw);
    max-width: 1110px;
    padding: 0px var(--pad);
    margin: auto;
@@ -271,7 +272,7 @@ a {
    grid-column-gap: 30px;
    grid-row-gap: 18px;
 
-   min-width: 900px;
+   min-width: var(--minw);
    max-width: 1110px;
    margin: auto;
    margin-top: 55px;
@@ -327,7 +328,7 @@ a {
 .news-wrapper {
    display: flex;
    max-width: 1110px;
-   min-width: 900px;
+   min-width: var(--minw);
    justify-content: space-between;
    margin: auto;
 }
