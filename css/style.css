@@ -398,7 +398,7 @@ ul {
    min-width: var(--minw);
    padding: 0 var(--pad);
    margin: auto;
-   padding: 60px 0 70px;
+   padding: 60px var(--pad) 70px;
 }
 
 .footer h2 {
@@ -408,6 +408,7 @@ ul {
 
 .footer ul {
    margin: 0;
+   
 }
 
 .footer-column {
@@ -424,4 +425,10 @@ ul {
 
 .download {
    margin-bottom: 15px;
+}
+
+.social_links {
+   display:  flex;
+   justify-content: space-between;
+   width: 219px;
 }
