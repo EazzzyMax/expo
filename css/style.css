@@ -67,7 +67,7 @@ ul {
 
 .container {
    max-width: 1110px;
-   min-width: 900px;
+   min-width: 968px;
    padding: 0 30px;
    margin: 0 auto;
 }
@@ -78,18 +78,11 @@ ul {
 
 /* Хедер */
 
-.main-header {
-}
 .head-wrapper {
    display: flex;
    align-items: center;
    justify-content: space-between;
    height: 89px;
-
-   /* margin: auto;
-   padding: 0px var(--pad);
-   max-width: 1560px;
-   min-width: var(--minw); */
 }
 
 .line {
@@ -127,8 +120,8 @@ ul {
 }
 
 .first-screen {
-   padding-top: 200px;
-   padding-bottom: 53px;
+   padding-top: 128px;
+   padding-bottom: 125px;
 }
 
 .first-screen-wrapper {
@@ -299,6 +292,7 @@ ul {
 .news-wrapper {
    display: flex;
    justify-content: space-between;
+   gap: 30px;
 }
 
 .news-left {
@@ -346,18 +340,14 @@ ul {
 
 .footer {
    background-color: var(--green);
+   padding: 60px 0 70px;
 }
 
 .footer-wrapper {
    font-size: 14px;
    display: flex;
    justify-content: space-between;
-
-   max-width: 1110px;
-   min-width: var(--minw);
-   padding: 0 var(--pad);
-   margin: auto;
-   padding: 60px var(--pad) 70px;
+   gap: 30px;
 }
 
 .footer h3 {
@@ -373,8 +363,8 @@ ul {
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
-   max-width: 255px;
    gap: 40px;
+   flex: 0 1 255px;
 }
 
 .last {
@@ -382,11 +372,39 @@ ul {
 }
 
 .download {
-   margin-bottom: 15px;
+   margin-bottom: 0;
+   margin-top: 15px;
 }
 
 .social_links {
    display: flex;
    justify-content: space-between;
    width: 219px;
+}
+
+.form-mail {
+   display: flex;
+   width: 100%;
+}
+
+#mailbot {
+   font-family: Circe;
+   font-size: 12px;
+   height: 100%;
+flex: 1 1 195px;
+   border-style: none;
+   height: 40px;
+   padding: 0 0 0 20px;
+}
+
+#mailbot:focus {
+   outline: none;
+   /* background-color: black; */
+}
+
+#mail-button {
+   border-style: none;
+   background-color: var(--red);
+   flex: 0 0 40px;
+   height: 40px;
 }
