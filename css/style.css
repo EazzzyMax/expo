@@ -29,6 +29,7 @@ body {
    background-attachment: fixed;
    color: white;
    margin: 0;
+   min-width: 1024px;
 }
 
 h1 {
@@ -67,7 +68,7 @@ ul {
 
 .container {
    max-width: 1110px;
-   min-width: 968px;
+   min-width: 964px;
    padding: 0 30px;
    margin: 0 auto;
 }
@@ -292,7 +293,7 @@ ul {
 .news-wrapper {
    display: flex;
    justify-content: space-between;
-   gap: 30px;
+   gap: 25px;
 }
 
 .news-left {
@@ -407,4 +408,5 @@ flex: 1 1 195px;
    background-color: var(--red);
    flex: 0 0 40px;
    height: 40px;
+   padding-top: 12px;
 }
