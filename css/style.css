@@ -32,7 +32,6 @@ body {
    margin: 0;
 }
 
-
 h1 {
    font-family: 'Plumb Regular';
    font-size: 64px;
@@ -65,6 +64,8 @@ ul {
 
 .img-block {
    display: block;
+   width: 100%;
+   height: auto;
 }
 
 .container {
@@ -232,7 +233,6 @@ ul {
 }
 @media (max-width: 1024px) {
    .side-menu-wrapper {
-      
       display: grid;
       column-gap: 140px;
       row-gap: 30px;
@@ -240,8 +240,7 @@ ul {
       justify-content: space-between;
    }
    /* .side-menu-column.item2,.side-menu-column.item4 { */
-   }
-
+}
 
 .side-menu-list {
    margin: 0;
@@ -324,7 +323,7 @@ ul {
    margin-bottom: 0;
 }
 
-/* третий отсек */
+/* третий отсек НОВОСТИ*/
 
 .news {
    background-color: var(--ice);
@@ -345,6 +344,11 @@ ul {
    display: flex;
    justify-content: space-between;
    gap: 25px;
+}
+@media (max-width: 1024px) {
+   .news-wrapper {
+      flex-direction: column;
+   }
 }
 
 .news-left {
@@ -386,6 +390,24 @@ ul {
 
 .news-right-li {
    height: 120px;
+}
+.news-right-li.img {
+   width: 100%;
+}
+
+@media (max-width: 1024px) {
+   .news-wrapper{
+      gap: 50px     ;
+   }
+   .news-left {
+      max-width: 540px;
+   }
+   .news-left-ul{
+      gap: 30px;
+   }
+   .news-right {
+      max-width: 540px;
+   }
 }
 
 /* подвал */
