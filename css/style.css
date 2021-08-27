@@ -76,7 +76,7 @@ ul {
 
 @media (max-width: 1024px) {
    body{
-      min-width: 600px;
+      min-width: 769px;
    }
    .container {
       max-width: 540px;
