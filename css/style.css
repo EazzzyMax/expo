@@ -30,7 +30,7 @@ body {
    background-attachment: fixed;
    color: white;
    margin: 0;
-   min-width: 1024px;
+   /* min-width: 1024px; */
 }
 
 h1 {
@@ -69,9 +69,22 @@ ul {
 
 .container {
    max-width: 1110px;
-   min-width: 964px;
+   min-width: none;
    padding: 0 30px;
    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+   .container {
+      max-width: 540px;
+      min-width: 540px;
+      padding: 0 30px;
+      margin: 0 auto;
+   }
+   .events-list.container {
+      max-width: 730px;
+      min-width: 540px;
+   }
 }
 
 .container.head {
@@ -256,6 +269,11 @@ ul {
    margin-top: 55px;
    margin-bottom: 0;
 }
+@media (max-width: 1024px) {
+   .events-list {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
 
 .events-img {
    width: 100%;
@@ -393,7 +411,7 @@ ul {
    font-family: Circe;
    font-size: 12px;
    height: 100%;
-flex: 1 1 195px;
+   flex: 1 1 195px;
    border-style: none;
    height: 40px;
    padding: 0 0 0 20px;
