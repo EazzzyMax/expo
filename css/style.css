@@ -75,6 +75,9 @@ ul {
 }
 
 @media (max-width: 1024px) {
+   body{
+      min-width: 540px;
+   }
    .container {
       max-width: 540px;
       min-width: 540px;
