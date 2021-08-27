@@ -397,7 +397,7 @@ ul {
 
 @media (max-width: 1024px) {
    .news-wrapper{
-      gap: 50px     ;
+      gap: 50px;
    }
    .news-left {
       max-width: 540px;
