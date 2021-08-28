@@ -104,7 +104,6 @@ ul {
    }
 }
 
-
 /* Хедер */
 
 .head-wrapper {
@@ -321,6 +320,23 @@ ul {
    padding-bottom: 79px;
 }
 
+@media (max-width: 477px) {
+   .events h2 {
+      font-size: 28px;
+   }
+   #link-to-all {
+      font-size: 20px;
+   }
+}
+@media (max-width: 447px) {
+   .events h2 {
+      font-size: 26px;
+   }
+   #link-to-all {
+      font-size: 19px;
+   }
+}
+
 .events-head {
    display: flex;
    justify-content: space-between;
@@ -369,6 +385,22 @@ ul {
    margin-top: 10px;
    margin-bottom: 0;
 }
+@media (max-width: 510px) {
+   .date {
+      font-size: 13px;
+   }
+   .event-info {
+      font-size: 15px;
+   }
+}
+@media (max-width: 470px) {
+   .date {
+      font-size: 12px;
+   }
+   .event-info {
+      font-size: 14px;
+   }
+}
 
 /* третий отсек НОВОСТИ*/
 
@@ -386,8 +418,6 @@ ul {
 .news h2 {
    margin: 0;
 }
-
-
 
 .news-wrapper {
    display: flex;
@@ -449,7 +479,6 @@ ul {
       font-size: 17px;
    }
 }
-
 
 .news-right-ul {
    display: flex;
