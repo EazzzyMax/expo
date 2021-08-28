@@ -81,23 +81,29 @@ ul {
 
 @media (max-width: 1024px) {
    body {
-      min-width: 500px;
+      min-width: 444px;
    }
    .container {
       max-width: 540px;
-      min-width: 460px;
+      min-width: 420px;
       padding: 0 20px;
       margin: 0 auto;
    }
    .events-list.container {
       max-width: 730px;
-      min-width: 460px;
+      min-width: 420px;
    }
    .events-head.container {
       max-width: 730px;
-      min-width: 460px;
+      min-width: 420px;
    }
 }
+@media (max-width: 500px) {
+   .container {
+      padding: 0 12px;
+   }
+}
+
 
 /* Хедер */
 
@@ -139,7 +145,6 @@ ul {
    }
 }
 
-
 /* первая секция */
 
 .ph1 {
@@ -172,7 +177,6 @@ ul {
       flex-direction: column;
       min-height: none;
       gap: 50px;
-
    }
 }
 
@@ -184,12 +188,11 @@ ul {
 
    margin: 0;
 }
-@media(max-width:1024px) {
+@media (max-width: 1024px) {
    .tiles-list {
       gap: 20px;
    }
 }
-
 
 .tiles-item {
    display: flex;
@@ -205,8 +208,7 @@ ul {
 }
 @media (max-width: 570px) {
    .tiles-item {
-         padding: 25px 25px 25px 35px;
-
+      padding: 25px 25px 25px 35px;
    }
 }
 
@@ -268,13 +270,13 @@ ul {
       justify-content: space-between;
    }
 
-   .side-menu-column.item2,.side-menu-column.item4 {
+   .side-menu-column.item2,
+   .side-menu-column.item4 {
       justify-self: end;
    }
    .side-menu-column.item4 {
       width: 185.45px;
    }
-   
 }
 
 .side-menu-list {
@@ -323,6 +325,15 @@ ul {
    display: flex;
    justify-content: space-between;
    gap: 50px;
+}
+@media (max-width: 520px) {
+   .events-head {
+      flex-direction: column;
+      gap: 10px;
+   }
+   #link-to-all {
+      align-self: flex-start;
+   }
 }
 
 .events-list {
@@ -376,6 +387,8 @@ ul {
    margin: 0;
 }
 
+
+
 .news-wrapper {
    display: flex;
    justify-content: space-between;
@@ -411,6 +424,32 @@ ul {
 .news-right img {
    margin-right: 30px;
 }
+@media (max-width: 530px) {
+   .news-right img {
+      margin-right: 20px;
+   }
+}
+@media (max-width: 520px) {
+   .news h3 {
+      font-size: 20px;
+   }
+}
+@media (max-width: 505px) {
+   .news h3 {
+      font-size: 19px;
+   }
+}
+@media (max-width: 475px) {
+   .news h3 {
+      font-size: 18px;
+   }
+}
+@media (max-width: 461px) {
+   .news h3 {
+      font-size: 17px;
+   }
+}
+
 
 .news-right-ul {
    display: flex;
@@ -445,7 +484,7 @@ ul {
    .news-right {
       max-width: 540px;
    }
-   .news-right-ul{
+   .news-right-ul {
       gap: 20px;
    }
 }
