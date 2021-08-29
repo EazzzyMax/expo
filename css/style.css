@@ -161,17 +161,21 @@ ul {
 p {
    margin-bottom: 0;
 }
+
+@media (max-width:490px) {
+   h1 {
+      font-size: 13vw;
+   }
+}
 @media (max-width:480px) {
    .ph1 {
       margin: 25px 0 15px;
    }
 }
 @media (max-width: 443px) {
-   h1 {
-      font-size: 14.4vw;
-   }
+   
    .ph1 {
-      font-size: 5.4vw;
+      font-size: 5.3vw;
    }
 }
 @media (max-width: 372px) {
