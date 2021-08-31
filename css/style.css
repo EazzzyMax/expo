@@ -263,7 +263,7 @@ p {
       padding: 25px 25px 25px 35px;
    }
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
    .tiles-list {
       gap: 12px;
       grid-template-columns: 1fr 1fr;
@@ -537,7 +537,6 @@ p {
    padding: 0;
 }
 
-
 .news-right {
    max-width: 530px;
    height: 489px;
@@ -569,7 +568,9 @@ p {
 }
 @media (max-width: 461px) {
    .news h3 {
+      height: 54px;
       font-size: 17px;
+      overflow: hidden;
    }
 }
 
@@ -594,7 +595,6 @@ p {
 }
 
 @media (max-width: 1024px) {
-   
    .news-left {
       max-width: 540px;
    }
